@@ -28,7 +28,7 @@ namespace IS3050_Spring_2025_Assignment08
         {
             Boolean status = true;     // Assume it's valid
 
-            if (password == null || password.Length < 10) {
+            if (password == null || password.Length < 9) {
                 return false; // Must be at least 10 characters long
             }
 
